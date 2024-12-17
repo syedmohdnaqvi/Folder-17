@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice</title>
+</head>
+<body>
+    <h1>sum two numbers</h1>
+    <form>
+    <input type="number" name="enternumber1" id="one">
+    <select name="operators" id="three">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">X</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" name="enternumber2" id="two">
+    <button onclick="calculator()">CLICK HERE</button>
+    <h2 id="output"></h2>
+    </form>
+    <script>
+         function calculator(){
+         var a=document.getElementById('one').value;
+         var c=document.getElementById('three').value;
+         var b=document.getElementById('two').value;
+         if(c=='+'){
+            var d=parseInt(a)+parseInt(b);
+         }
+         if(c=='-'){
+            var d=parseInt(a)-parseInt(b);
+         }
+         if(c=='*'){
+            var d=parseInt(a)*parseInt(b);
+         }
+         if(c=='/'){
+            var d=parseInt(a)/parseInt(b);
+         }
+         alert(d);
+         }
+    </script>
+    
+</body>
+</html>

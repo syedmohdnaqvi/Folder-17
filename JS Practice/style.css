@@ -1,0 +1,99 @@
+header{
+    background-color: darkslategray;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+nav,ul,li{
+    color: white;
+    display: flex;
+    margin: 10px;
+    gap: 100px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+}
+
+.imglogo{
+    height: 55px;
+    width:100px;
+    border-radius: 10px;
+    border: 4px solid ivory;
+}
+
+nav,ul,li,a{
+    text-decoration: none;
+}
+
+.imgtwo{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.formdiv{
+    height:1000px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url('Web-Designing-in-Hindi.jpg');
+}
+
+.subformdiv{
+    height: 700px;
+    width: 500px;
+    margin: auto;
+    border: 20px solid rgba(23, 120, 127, 0.484);
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formheading{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
